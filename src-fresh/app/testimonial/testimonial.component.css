@@ -1,0 +1,21 @@
+.testimonial {
+    padding: 10px 0 40px 0;
+}
+.testimonial-box {
+    border: solid 1px #f2f2f2;
+    padding: 15px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+.testimonial-content {
+    padding: 10px;
+    color: #666;
+    font-size: 14px;
+}
+.testionial-img {
+    text-align: center;
+}
+.testionial-img img {
+    margin: auto;
+}

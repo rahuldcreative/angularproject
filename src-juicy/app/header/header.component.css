@@ -1,0 +1,40 @@
+
+
+/*-header-start*/
+.navbar-dark .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#eb5e00;
+    transition: all ease 0.3s;
+} 
+.navbar-dark .navbar-nav .nav-link .login-icon{
+    color:#565555;
+}
+
+.navbar-dark .navbar-nav .nav-link.donate-btn{
+    background-color: #eb5e00;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 18px;
+    padding: 7px 20px;
+    transition: all ease 0.3s;
+}
+.navbar-dark .navbar-nav .nav-link.donate-btn:hover{
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+    transition: all ease 0.3s;
+    
+}
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+    background-color: #333;
+}
+.logo-width{
+    width: 70px;
+}
+
+/*-header-end*/

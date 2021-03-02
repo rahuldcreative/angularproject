@@ -1,0 +1,82 @@
+
+  <section class="home-banner about-banner-sec">
+
+    <div class="about-banner">
+      <img src="assets/img/about-banner.jpg" class="img-responsive">
+      <div class="inner-banner-heading">
+        <h3>News</h3>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="about-sec about-inner-sec">
+    <div class="about-container">
+      <div class="container">
+        <div class="row">
+      
+          <div class="col-md-12">
+            <div class="about-content-area">
+              <div class="about-title wow fadeInUp animated" data-wow-delay="0.2s"><span>Welcome to</span> </div>
+              <div class="about-title-heading wow fadeInUp animated" data-wow-delay="0.3s">Sports News API</div>
+              <div class="about-content wow fadeInUp animated" data-wow-delay="0.4s" *ngIf="newsdata">
+                
+                <div class="api-content-container" *ngFor="let news of newsdata">
+                <div class="author-heding">  
+                    {{news.author}}
+                </div>
+                <div class="author-title">
+                      {{news.title}}
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                <div class="autoher-img">
+                      <img [src]="news.urlToImage" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="autoher-description">   
+                      {{news.description}}
+                    </div>
+                </div>    
+                </div>  
+                  </div>
+               
+
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <style>
+      .api-content-container {
+        padding: 15px;
+    border: solid 1px #f2f2f2;
+    margin: 15px 0;
+      }
+      .author-heding {
+        color: #238e54;
+      }
+      .author-title {
+    color: #fa9d35;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.autoher-img img {
+    width: 100%;
+   
+    max-width: 370px;
+    text-align: center;
+    /* margin: auto; */
+}
+.autoher-img  {
+   text-align: center;
+}
+  </style>
